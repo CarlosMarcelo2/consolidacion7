@@ -20,7 +20,7 @@ class ProductoAdmin(admin.ModelAdmin):
     
     ordering = ('nombre', 'laboratorio')
     
-    list_display_link = ('nombre', 'laboratorio')
+    list_display_links = ('nombre', 'laboratorio')
 
     list_filter = ('nombre', 'laboratorio')
 
